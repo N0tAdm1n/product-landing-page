@@ -58,3 +58,16 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-images {
+    display: flex;
+}
+
+.exit-banner {
+    display: flex;
+}
