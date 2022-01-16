@@ -1,6 +1,8 @@
 * {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .header, .exit-banner {
@@ -29,9 +31,14 @@
 
 .sign-up-button {
     background-color: #3382F6;
-    padding: 10px 20px;
+    padding: 8px 30px;
+    margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: fit-content;
 }
 
 .link {
@@ -57,26 +64,52 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px 0;
 }
 
 .hero-text {
+    width: 500px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .hero-image {
-    flex-grow: 1;
+    width: 500px;
+    /* flex-grow: 1; */
+    background-color: #F9FAF8;
+    text-align: center;
 }
 
 .information {
     display: flex;
     flex-direction: column;
-    padding: 0 300px;
+    padding: 50px 300px;
+    align-items: center;
 }
 
 .information-images {
     display: flex;
+    justify-content: space-between;
+}
+
+.information-image-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    margin: 50px;
+    color: #6e6e6e;
+    font-size: large;
+}
+
+.information-image {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3382F6;
+    border-radius: 10%;
 }
 
 .exit-banner {
