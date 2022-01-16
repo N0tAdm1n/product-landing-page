@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.header, .exit-banner {
+.header {
     padding: 20px 250px 50px;
 }
 
@@ -90,6 +90,11 @@ a {
     align-items: center;
 }
 
+.information h1 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .information-images {
     display: flex;
     justify-content: space-between;
@@ -103,6 +108,7 @@ a {
     margin: 50px;
     color: #6e6e6e;
     font-size: large;
+    row-gap: 10px;
 }
 
 .information-image {
@@ -113,23 +119,51 @@ a {
 }
 
 .exit-banner {
+    width: fit-content;
+    margin: 100px auto;
     display: flex;
     background-color: #3382F6;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px 100px;
+    color: #F9FAF8;
+}
+
+.exit-banner h2 {
+    font-size: 24px;
+}
+
+.exit-banner p {
+    font-size: 20px;
+}
+
+.exit-banner .sign-up-button {
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 8px 30px;
+    align-self: center;
+    margin-top: 0;
+    margin-left: 100px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .quote {
     background-color: #E5E7EB;
-    padding: 50px 500px;
+    padding: 100px 500px;
 }
 
 .quote-text {
     font-style: italic;
-    font-weight: lighter;
+    color: #1F2937;
+    font-weight: 250;
     font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .quote-by {
-    font-weight: bold;
+    font-weight: 550;
     text-align: right;
-    font-size: 24px;
+    font-size: 26px;
+    margin-right: 30px;
 }
