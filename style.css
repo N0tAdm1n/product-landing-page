@@ -78,7 +78,9 @@ a {
 .hero-image {
     width: 500px;
     background-color: #F9FAF8;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information {
